@@ -1,0 +1,76 @@
+.bartHeader {
+    background-color: #222831;
+    width: 96vw;
+    padding: 2vw;
+    color: white;
+}
+
+#bartContent {
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: #393E46;
+    color: white;
+    width: 100vw;
+    min-height: 100vh;   
+}
+
+.selection {
+    margin: auto;
+    width: 60%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.selection select {
+    width: 95%;
+    padding: .5rem;
+    margin: 2.5%;
+}
+
+.selection button {
+    width: 95%;
+    margin: 2.5%;
+}
+
+.selection h1 {
+    font-size: x-large;
+    margin: auto;
+    width: 90%;
+}
+
+.bartInfo {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.destination {
+    padding: 5%;
+}
+
+.arrival {
+    padding: 2.5%;
+}
+
+.bartMap {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 15%;
+}
+
+.bartMapContainer {
+    width: 99%;
+    background-color: #7F8487;
+    border: 5% solid white;
+    border-radius: 5px;
+}
+
+.bartMapContainer img{
+    width: 100%;
+    object-fit: contain;
+}
+
+#bartContent p {
+    text-align: center;
+    font-size: xx-small;
+}
+

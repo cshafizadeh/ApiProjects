@@ -1,0 +1,22 @@
+#back {
+    position: fixed;
+    bottom: 0;
+    color: white;
+}
+
+.back-container {
+    padding: .5rem;
+    font-size: 2rem;
+    background-color: #222831;
+    border-top-right-radius: 10%;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-size: medium;
+}
+
+a:hover {
+    cursor: pointer;
+}

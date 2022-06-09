@@ -1,0 +1,57 @@
+#content {
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: #393E46;
+    color: white;
+    width: 99vw;
+}
+
+.header {
+    background-color: #222831;
+    padding: 2vw;
+    color: white;
+}
+
+.header h3 {
+    font-size: large;
+    padding-top: 1rem;
+}
+
+.main {
+    margin: auto;
+    width: 60%;
+    padding: 2rem;
+    min-height: 75vh;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+}
+
+input {
+    height: 2rem;
+    margin: .5rem;
+}
+
+button {
+    height: 2rem;
+    margin: .5rem;
+}
+
+.return {
+    margin: auto;
+    width: 46%;
+    font-size: 2rem;
+}
+
+@media (max-width:600px) { 
+    .inputs {
+        margin: 0px;
+        width: 100%;
+    }
+    .return {
+        width: 100%;
+    }
+}
